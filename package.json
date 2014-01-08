@@ -19,6 +19,7 @@
   "author": "",
   "license": "",
   "devDependencies": {
-    "then-jade": "~1.1.0"
+    "then-jade": "~1.1.0",
+    "grunt-contrib-sass": "~0.6.0"
   }
 }
