@@ -1,10 +1,10 @@
 {
-  "name": "10hackschat",
+  "name": "sails-starterkit",
   "private": true,
   "version": "0.0.0",
-  "description": "a Sails application",
+  "description": "Sails Starter Kit",
   "dependencies": {
-    "sails": "~0.9.8",
+    "sails": "0.9.8",
     "grunt": "~0.4.2",
     "sails-disk": "~0.9.0",
     "optimist": "~0.6.0"
