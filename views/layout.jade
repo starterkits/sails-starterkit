@@ -14,11 +14,13 @@ html
 
     // A few key dependencies, linked in order
 
-    // Bring in the socket.io client
-    script(type="text/javascript", src="/js/socket.io.js")
-
-    // then beef it up with some convenience logic for talking to Sails.js'
-    script(type="text/javascript", src="/js/sails.io.js")
-
-    // listen on socket.io for incoming messages
+    // SCRIPTS
+    script(type="text/javascript", src="/vendor/js/socket.io.js")
+    script(type="text/javascript", src="/vendor/js/sails.io.js")
     script(type="text/javascript", src="/js/app.js")
+    // SCRIPTS END
+
+    // Load templates
+    // TEMPLATES
+    script(type="text/javascript", src="/jst.js")
+    // TEMPLATES END
