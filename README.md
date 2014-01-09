@@ -90,4 +90,4 @@ grunt.loadTasks(depsPath + '/grunt-contrib-coffee/tasks');
 grunt.loadNpmTasks('grunt-contrib-sass');
 ```
 
-Modify [Gruntfile](https://github.com/10hacks/sails-starterkit/blob/master/Gruntfile.js) to support vendor dir, linking, etc. See [commit]()(https://github.com/10hacks/sails-starterkit/commit/8190716d5f088c886cc15354a1561c179d26c6ee).
+Modify [Gruntfile](https://github.com/10hacks/sails-starterkit/blob/master/Gruntfile.js) to support vendor dir, linking, etc. See [commit](https://github.com/10hacks/sails-starterkit/commit/8190716d5f088c886cc15354a1561c179d26c6ee).
