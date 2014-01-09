@@ -2,6 +2,25 @@
 
 Sails + CoffeeScript + Jade + Sass + Zurb Foundation
 
+## Features
+
+* Sails 0.9.8+
+* Optimized Gruntfile for jade + sass + coffee
+* Vendor directory for clean separation of app and vendor code
+  * Modified Gruntfile to automatically compile and copy vendor files
+* Automatic inclusion of js and template files
+  * assets/templates/*
+  * js/*.(js|coffee|)
+* Manual inclusion of vendor files
+  * vendor/*
+  * Allows for better control over vendor bloat
+* Manual inclusion of stylesheets via sass @import
+  * assets/styles/app.scss
+  * Allows for more intuitive development and control than automatic inclusion
+* Automatic support for common client-side templates: jade, ejs, dust, etc.
+  * Files in assets/templates are compiled and combined into jst.js
+  * See [consolidate.js](https://github.com/visionmedia/consolidate.js/) for list of supported templates
+* Automatic support for JS and CoffeeScript
 
 
 ### Build from Scratch
