@@ -1,0 +1,6 @@
+{
+  "name": "sails-starterkit",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation"
+  }
+}
