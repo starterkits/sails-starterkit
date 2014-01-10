@@ -7,7 +7,10 @@
     "sails": "0.9.8",
     "grunt": "~0.4.2",
     "sails-disk": "~0.9.0",
-    "optimist": "~0.6.0"
+    "optimist": "~0.6.0",
+    "passport": "~0.1.18",
+    "passport-local":  "~0.1.6",
+    "bcrypt": "~0.7.7"
   },
   "scripts": {
     "start": "node app.js",
