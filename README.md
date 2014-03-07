@@ -1,6 +1,17 @@
 # Sails Starter Kit
 
-Sails + CoffeeScript + Jade + Sass + Zurb Foundation
+Sails + CoffeeScript + Jade + Sass + Zurb Foundation.
+
+## Status
+
+Sails Starter Kit is an optimized configuration of [Sails.js](http://sailsjs.org/) with Rails-like asset pipeline. It should save a couple hours of configuration at a hackathon but has not yet been audited for production use.
+
+* **Configuration**: good — optimized gruntfile with better asset handling
+* **Development**: good — intuitive code layout and automatic loading
+* **Test**: see [Sails.js](http://sailsjs.org/)
+* **Production**: see [Sails.js](http://sailsjs.org/)
+
+
 
 ## Overview
 
@@ -33,7 +44,7 @@ Sails Starter Kit is a lovingly tweaked version of the default skeleton.
 ## Setup
 
 ```
-git clone https://github.com/10hacks/sails-starterkit.git
+git clone https://github.com/starterkits/sails-starterkit.git
 cd sails-starterkit
 npm install
 sails lift
@@ -42,7 +53,7 @@ sails lift
 ## Recreating from Sails.js Sekelton
 
 ```bash
-sails new 10hacks --template=jade
+sails new starterkit --template=jade
 npm install then-jade --save-dev
 npm install grunt-contrib-sass --save-dev
 ```
@@ -90,4 +101,4 @@ grunt.loadTasks(depsPath + '/grunt-contrib-coffee/tasks');
 grunt.loadNpmTasks('grunt-contrib-sass');
 ```
 
-Modify [Gruntfile](https://github.com/10hacks/sails-starterkit/blob/master/Gruntfile.js) to support vendor dir, linking, etc. See [commit](https://github.com/10hacks/sails-starterkit/commit/8190716d5f088c886cc15354a1561c179d26c6ee).
+Modify [Gruntfile](https://github.com/starterkits/sails-starterkit/blob/master/Gruntfile.js) to support vendor dir, linking, etc. See [commit](https://github.com/starterkits/sails-starterkit/commit/8190716d5f088c886cc15354a1561c179d26c6ee).
